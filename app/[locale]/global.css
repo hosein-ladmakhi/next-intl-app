@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #222;
+    color: #fff;
+    padding: 30px;
+    font-size: 25px;
+}
+
+
+:lang(en) {
+    font-family: var(--font-figtree);
+}
+
+:lang(fa) {
+    font-family: var(--font-vazir);
+}
+
+.btn {
+    @apply flex justify-center items-center text-sm rounded h-[35px] w-[120px] font-semibold;
+}
